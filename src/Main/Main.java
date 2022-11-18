@@ -4,13 +4,17 @@
  * and open the template in the editor.
  */
 package Main;
-
+import View.MainMenu;
 /**
  *
  * @author TUF GAMING
  */
 public class Main {
+    public Main(){
+        new MainMenu();
+    }
     public static void main(String[] args) {
         System.out.println("Hellow");
+        new Main();
     }
 }
